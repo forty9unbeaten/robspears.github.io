@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Robert Spears</h1>
+        <h1>Rob Spears</h1>
         <BrowserRouter>
           <Navbar />
           <div id="App-container">
