@@ -1,0 +1,9 @@
+.PortItem-project a {
+    font-family: var(--defaultFont);
+    text-decoration: underline;
+    color: black
+}
+
+.PortItem-project a:hover {
+    color: maroon;
+}
