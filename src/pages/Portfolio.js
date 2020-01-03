@@ -17,7 +17,7 @@ export class Portfolio extends Component {
             Model web API.
           </h4>
         </div>
-        <ul id="Portfolio-domProjects">
+        <ul className="Portfolio-projects">
           <PortfolioItem
             link="https://www.robsp3ars.gitlab.io/connectFour"
             projectName="Connect Four"
@@ -53,7 +53,7 @@ export class Portfolio extends Component {
             application state management.
           </h4>
         </div>
-        <ul id="Portfolio-reactProjects">
+        <ul className="Portfolio-projects">
           <PortfolioItem
             link="https://ty914.gitlab.io/assessment---kwitter-frontend/"
             projectName="Twitter Clone"

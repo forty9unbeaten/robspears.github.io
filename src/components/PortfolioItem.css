@@ -1,9 +1,15 @@
+.PortItem-project {
+  list-style-type: disc;
+  font-size: 100%;
+  margin: 5px;
+}
+
 .PortItem-project a {
-    font-family: var(--defaultFont);
-    text-decoration: underline;
-    color: black
+  font-family: var(--defaultFont);
+  text-decoration: underline;
+  color: black;
 }
 
 .PortItem-project a:hover {
-    color: maroon;
+  color: maroon;
 }

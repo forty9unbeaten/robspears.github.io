@@ -16,10 +16,6 @@
   text-align: center;
 }
 
-#Portfolio-domProjects {
-  width: 75%;
-}
-
-#Portfolio-reactProjects {
+.Portfolio-projects {
   width: 75%;
 }
