@@ -60,6 +60,11 @@ export class Portfolio extends Component {
             projectName="Twitter Clone"
             description="Mock social networking platform"
           />
+          <PortfolioItem
+            link="https://gitlab.com/robsp3ars/printCatalogAPI"
+            projectName="3D Print Catalog Server-Side"
+            description="Back-end server repository/API tailored for a 3D print catalog"
+          />
         </ul>
       </React.Fragment>
     );

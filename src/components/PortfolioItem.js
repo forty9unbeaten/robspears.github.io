@@ -5,7 +5,11 @@ export class PortfolioItem extends Component {
   render() {
     return (
       <li className="PortItem-project">
-        <a href={this.props.link} title={this.props.projectName}>
+        <a
+          href={this.props.link}
+          title={this.props.projectName}
+          target="_blank"
+        >
           {this.props.projectName}
         </a>
         <ul>
