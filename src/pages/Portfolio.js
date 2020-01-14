@@ -12,6 +12,7 @@ export class Portfolio extends Component {
       <React.Fragment>
         <div className="Portfolio-header">
           <h2>Javascript projects</h2>
+          <h3>Click on a project to view it!</h3>
           <h4>
             These projects were made utilizing Javascript's Document Object
             Model web API.
