@@ -20,7 +20,7 @@ export class Portfolio extends Component {
         </div>
         <ul className="Portfolio-projects">
           <PortfolioItem
-            link="https://www.robsp3ars.gitlab.io/connectFour"
+            link="https://robsp3ars.gitlab.io/connectFour"
             projectName="Connect Four"
             description="Take turns with a friend playing the tic-tac-toe style game."
           />
