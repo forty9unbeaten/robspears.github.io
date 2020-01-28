@@ -61,6 +61,11 @@ export class Portfolio extends Component {
             description="Mock social networking platform"
           />
           <PortfolioItem
+            link="http://make-shift.herokuapp.com/"
+            projectName="3D Print Catalog Front-End"
+            description="Front-end foundation for a 3D printing catalog"
+          />
+          <PortfolioItem
             link="https://gitlab.com/robsp3ars/printCatalogAPI"
             projectName="3D Print Catalog Server-Side"
             description="Back-end server repository/API tailored for a 3D print catalog"
