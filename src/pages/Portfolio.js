@@ -63,12 +63,12 @@ export class Portfolio extends Component {
           <PortfolioItem
             link="http://make-shift.herokuapp.com/"
             projectName="3D Print Catalog Front-End"
-            description="Front-end foundation for a 3D printing catalog"
+            description="Front-end foundation for a 3D print catalog"
           />
           <PortfolioItem
-            link="https://gitlab.com/robsp3ars/printCatalogAPI"
+            link="http://printcatalog-capstone.herokuapp.com/"
             projectName="3D Print Catalog Server-Side"
-            description="Back-end server repository/API tailored for a 3D print catalog"
+            description="API documentation and Node.js server tailored for a 3D print catalog"
           />
         </ul>
       </React.Fragment>
