@@ -62,12 +62,12 @@ export class Portfolio extends Component {
           />
           <PortfolioItem
             link="http://make-shift.herokuapp.com/"
-            projectName="3D Print Catalog Front-End"
+            projectName="MakeShift 3D Print Catalog"
             description="Front-end foundation for a 3D print catalog"
           />
           <PortfolioItem
-            link="http://printcatalog-capstone.herokuapp.com/"
-            projectName="3D Print Catalog Server-Side"
+            link="https://github.com/forty9unbeaten/makeShiftAPI"
+            projectName="MakeShift 3D Print Catalog Server-Side"
             description="API documentation and Node.js server tailored for a 3D print catalog"
           />
         </ul>
