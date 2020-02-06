@@ -21,7 +21,7 @@ export class Navbar extends Component {
             className="Navbar-selection"
             onClick={this.handleClick}
           >
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </div>
           <div
             name="resume"
@@ -35,7 +35,7 @@ export class Navbar extends Component {
             className="Navbar-selection"
             onClick={this.handleClick}
           >
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/port">Portfolio</Link>
           </div>
           <div
             name="contact"

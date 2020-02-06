@@ -1,9 +1,9 @@
 import { Home, Resume, Portfolio, Contact, NotFound } from "./pages";
 
 export const routes = [
-  { path: "/home", component: Home },
+  { path: "/", component: Home },
   { path: "/resume", component: Resume },
-  { path: "/portfolio", component: Portfolio },
+  { path: "/port", component: Portfolio },
   { path: "/contact", component: Contact },
   { path: "*", component: NotFound }
 ];
