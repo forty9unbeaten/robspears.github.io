@@ -1,6 +1,6 @@
 {
   "name": "my-website",
-  "homepage": "http://forty9unbeaten.github.io/portfolio",
+  "homepage": "http://forty9unbeaten.github.io/portfolio/home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

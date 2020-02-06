@@ -21,7 +21,7 @@ export class Navbar extends Component {
             className="Navbar-selection"
             onClick={this.handleClick}
           >
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </div>
           <div
             name="resume"
