@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <h1>Rob Spears</h1>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Navbar />
           <div id="App-container">
             <Switch>
