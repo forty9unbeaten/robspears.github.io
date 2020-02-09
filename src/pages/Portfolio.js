@@ -61,7 +61,7 @@ export class Portfolio extends Component {
             description="Mock social networking platform"
           />
           <PortfolioItem
-            link="http://make-shift.herokuapp.com/"
+            link="https://forty9unbeaten.github.io/makeShift-FE/"
             projectName="MakeShift 3D Print Catalog"
             description="Front-end foundation for a 3D print catalog"
           />
