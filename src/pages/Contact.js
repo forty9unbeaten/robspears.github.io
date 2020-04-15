@@ -10,7 +10,7 @@ export class Contact extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <div id="Contact-container">
         <div id="Contact-social">
           <a
             href="https://www.linkedin.com/in/robsp3ars"
@@ -41,7 +41,7 @@ export class Contact extends Component {
           Send an email to Rob at{" "}
           <a href="mailto: rob.sp3ars@gmail.com">rob.sp3ars@gmail.com</a>
         </p>
-      </React.Fragment>
+      </div>
     );
   }
 }
