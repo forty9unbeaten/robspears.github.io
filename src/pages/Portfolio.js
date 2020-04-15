@@ -46,6 +46,11 @@ export class Portfolio extends Component {
             projectName="Twitter SlackBot"
             link="https://github.com/forty9unbeaten/backend-slacktweet"
           />
+          <PortfolioItem
+            screenshot={require("../img/dirwatch.png")}
+            projectName="Directory Monitor"
+            link="https://github.com/forty9unbeaten/dirwatcher"
+          />
         </div>
       </div>
     );
