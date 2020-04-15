@@ -68,7 +68,7 @@ export class Resume extends Component {
               </li>
             </ul>
           </Tab.Pane>
-        )
+        ),
       },
       {
         menuItem: "Education",
@@ -78,6 +78,9 @@ export class Resume extends Component {
               Butler University (2019 - Present)
             </h3>
             <ul>
+              <li>
+                <h4>Full Stack Engineering Certificate</h4>
+              </li>
               <li>
                 <h4>Front-End Web Development Certificate</h4>
               </li>
@@ -111,7 +114,7 @@ export class Resume extends Component {
               </ul>
             </ul>
           </Tab.Pane>
-        )
+        ),
       },
       {
         menuItem: "Technical Skills",
@@ -159,7 +162,7 @@ export class Resume extends Component {
               <Button
                 style={{
                   color: "white",
-                  backgroundColor: "maroon"
+                  backgroundColor: "maroon",
                 }}
                 animated="fade"
               >
@@ -173,7 +176,7 @@ export class Resume extends Component {
               <Button
                 style={{
                   color: "white",
-                  backgroundColor: "maroon"
+                  backgroundColor: "maroon",
                 }}
                 animated="fade"
               >
@@ -187,7 +190,7 @@ export class Resume extends Component {
               <Button
                 style={{
                   color: "white",
-                  backgroundColor: "maroon"
+                  backgroundColor: "maroon",
                 }}
                 animated="fade"
               >
@@ -199,7 +202,7 @@ export class Resume extends Component {
               <Button
                 style={{
                   color: "white",
-                  backgroundColor: "maroon"
+                  backgroundColor: "maroon",
                 }}
                 animated="fade"
               >
@@ -210,8 +213,8 @@ export class Resume extends Component {
               </Button>
             </div>
           </Tab.Pane>
-        )
-      }
+        ),
+      },
     ];
 
     return (
