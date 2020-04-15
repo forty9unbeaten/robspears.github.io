@@ -9,7 +9,7 @@ export class Home extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <div id="Home-container">
         <div id="Home-picContainer">
           <div
             id="Home-picture"
@@ -26,7 +26,7 @@ export class Home extends Component {
           Thank you for taking the time to look around, and I look forward to
           hearing from you!
         </p>
-      </React.Fragment>
+      </div>
     );
   }
 }
