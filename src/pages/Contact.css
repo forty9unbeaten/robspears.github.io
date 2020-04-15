@@ -51,3 +51,62 @@
   padding: 0;
   text-align: center;
 }
+
+/* Larger Smartphone Compatibility */
+@media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .socialIcon {
+    color: maroon;
+  }
+
+  #Contact-social {
+    width: 80%;
+  }
+
+  #Contact-email a {
+    color: maroon;
+  }
+
+  #Contact-container p {
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+}
+
+/* Smaller Smartphone Compatibility */
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .socialIcon {
+    color: maroon;
+  }
+
+  #Contact-social {
+    width: 80%;
+  }
+
+  #Contact-email a {
+    color: maroon;
+  }
+  #Contact-container p {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+}
+
+/* Even Smaller Smartphone Capability */
+@media only screen and (min-device-width: 0px) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .socialIcon {
+    color: maroon;
+  }
+
+  #Contact-social {
+    width: 80%;
+  }
+
+  #Contact-email a {
+    color: maroon;
+  }
+
+  #Contact-container p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}

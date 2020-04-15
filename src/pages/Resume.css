@@ -37,3 +37,171 @@
 h4 {
   margin: 3px;
 }
+
+/* Larger Smartphone Compatibility */
+@media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #App-container div.ui.grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #App-container div.four.wide.column {
+    width: 100% !important;
+    padding-bottom: 0;
+  }
+  #Resume-container
+    > div
+    > div
+    > div.four.wide.column
+    > div.ui.fluid.vertical.menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #Resume-container
+    > div
+    > div
+    > div.four.wide.column
+    > div.ui.fluid.vertical.menu
+    > a.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    text-align: center;
+  }
+
+  #Resume-container > div > div > div.stretched.twelve.wide.column {
+    width: 100% !important;
+  }
+
+  #Resume-container > div > div > div.stretched.twelve.wide.column > div {
+    border-radius: 5px;
+  }
+
+  #Resume-container > div > div > div.stretched.twelve.wide.column > div ul {
+    margin: 0;
+    padding: 0px 0px 10px 30px;
+  }
+
+  h3.sectionHeader {
+    font-size: 16px;
+  }
+
+  #Resume-container h4 {
+    font-size: 14px;
+  }
+}
+
+/* Smaller Smartphone Compatibility */
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  #App-container div.ui.grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #App-container div.four.wide.column {
+    width: 100% !important;
+    padding-bottom: 0;
+  }
+  #Resume-container
+    > div
+    > div
+    > div.four.wide.column
+    > div.ui.fluid.vertical.menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #Resume-container
+    > div
+    > div
+    > div.four.wide.column
+    > div.ui.fluid.vertical.menu
+    > a.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    text-align: center;
+  }
+
+  #Resume-container > div > div > div.stretched.twelve.wide.column {
+    width: 100% !important;
+  }
+
+  #Resume-container > div > div > div.stretched.twelve.wide.column > div {
+    border-radius: 5px;
+  }
+
+  #Resume-container > div > div > div.stretched.twelve.wide.column > div ul {
+    margin: 0;
+    padding: 0px 0px 10px 30px;
+  }
+
+  h3.sectionHeader {
+    font-size: 14px;
+  }
+
+  #Resume-container h4 {
+    font-size: 12px;
+  }
+}
+
+/* Even Smaller Smartphone Compatibility */
+@media only screen and (min-device-width: 0px) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  #App-container div.ui.grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #App-container div.four.wide.column {
+    width: 100% !important;
+    padding-bottom: 0;
+  }
+  #Resume-container
+    > div
+    > div
+    > div.four.wide.column
+    > div.ui.fluid.vertical.menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #Resume-container
+    > div
+    > div
+    > div.four.wide.column
+    > div.ui.fluid.vertical.menu
+    > a.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    text-align: center;
+  }
+
+  #Resume-container > div > div > div.stretched.twelve.wide.column {
+    width: 100% !important;
+  }
+
+  #Resume-container > div > div > div.stretched.twelve.wide.column > div {
+    border-radius: 5px;
+  }
+
+  #Resume-container > div > div > div.stretched.twelve.wide.column > div ul {
+    margin: 0;
+    padding: 0px 0px 10px 30px;
+  }
+
+  h3.sectionHeader {
+    font-size: 12px;
+  }
+
+  #Resume-container h4 {
+    font-size: 10px;
+  }
+}

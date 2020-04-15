@@ -28,3 +28,17 @@
   padding: 0;
   border-bottom: 5px solid rgb(160, 0, 0);
 }
+
+/* Larger Smartphone Compatibility */
+@media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .Navbar-selection a {
+    font-size: 18px;
+  }
+}
+
+/* Smaller Smartphone Compatibility */
+@media only screen and (min-device-width: 0px) and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .Navbar-selection a {
+    font-size: 14px;
+  }
+}

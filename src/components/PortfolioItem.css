@@ -29,3 +29,51 @@
 .Portcard a:hover {
   cursor: pointer;
 }
+
+/* Larger Smartphone Compatibility */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .Portcard {
+    justify-content: flex-start;
+    width: 48%;
+  }
+
+  .Portcard-image {
+    height: 100px;
+  }
+  .Portcard a {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/* Smaller Smartphone Compatibility */
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .Portcard {
+    justify-content: flex-start;
+    width: 48%;
+  }
+
+  .Portcard-image {
+    height: 90px;
+  }
+  .Portcard a {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/* Even Smaller Smartphone Capability */
+@media only screen and (min-device-width: 0px) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .Portcard {
+    justify-content: flex-start;
+    width: 48%;
+  }
+
+  .Portcard-image {
+    height: 75px;
+  }
+  .Portcard a {
+    font-size: 14px;
+    text-align: center;
+  }
+}
