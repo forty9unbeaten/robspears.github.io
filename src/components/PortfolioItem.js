@@ -3,19 +3,23 @@ import "./PortfolioItem.css";
 
 export class PortfolioItem extends Component {
   render() {
+    const { screenshot, projectName, link } = this.props;
     return (
-      <li className="PortItem-project">
+      <div className="Portcard">
+        <div
+          className="Portcard-image"
+          style={{ backgroundImage: `url(${screenshot})` }}
+        />
         <a
-          href={this.props.link}
-          title={this.props.projectName}
+          href={link}
+          title={projectName}
+          alt={projectName}
           target="_blank"
+          rel="noopener noreferrer"
         >
-          {this.props.projectName}
+          {projectName}
         </a>
-        <ul>
-          <li className="PortItem-description">{this.props.description}</li>
-        </ul>
-      </li>
+      </div>
     );
   }
 }

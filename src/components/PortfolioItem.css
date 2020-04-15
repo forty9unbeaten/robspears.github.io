@@ -1,15 +1,31 @@
-.PortItem-project {
-  list-style-type: disc;
-  font-size: 100%;
-  margin: 5px;
+.Portcard {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.Portcard-image {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
 }
 
-.PortItem-project a {
+.Portcard a {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 20px;
   font-family: var(--defaultFont);
-  text-decoration: underline;
-  color: black;
+  margin: 5px;
+  font-weight: bold;
 }
 
-.PortItem-project a:hover {
-  color: maroon;
+.Portcard a:hover {
+  cursor: pointer;
 }
