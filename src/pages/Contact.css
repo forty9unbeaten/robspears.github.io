@@ -110,3 +110,22 @@
     margin-bottom: 0;
   }
 }
+
+/* Standard Size Tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .socialIcon {
+    color: maroon;
+  }
+
+  #Contact-phone {
+    font-size: 45px;
+  }
+
+  #Contact-email {
+    font-size: 40px;
+  }
+
+  #Contact-email a {
+    color: maroon;
+  }
+}

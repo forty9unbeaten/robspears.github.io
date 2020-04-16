@@ -68,3 +68,14 @@
     justify-content: space-between;
   }
 }
+
+/* Standard Size Tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .Portfolio-header h2 {
+    font-size: 24px;
+  }
+
+  .Portfolio-row {
+    width: 100%;
+  }
+}

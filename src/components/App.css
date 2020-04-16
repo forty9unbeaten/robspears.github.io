@@ -20,3 +20,10 @@ h1 {
   text-shadow: 1px 1px 0 black;
   color: rgb(255, 255, 255);
 }
+
+/* Standard Size Tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 40px;
+  }
+}

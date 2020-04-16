@@ -40,15 +40,19 @@ h4 {
 
 /* Larger Smartphone Compatibility */
 @media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* Entire Resume section*/
   #App-container div.ui.grid {
     flex-direction: column;
     align-items: center;
   }
 
+  /* Tab Navigation column */
   #App-container div.four.wide.column {
     width: 100% !important;
     padding-bottom: 0;
   }
+
+  /* Nav Tab Group */
   #Resume-container
     > div
     > div
@@ -58,6 +62,7 @@ h4 {
     flex-direction: row;
   }
 
+  /* Individual Nav Tabs */
   #Resume-container
     > div
     > div
@@ -72,23 +77,28 @@ h4 {
     text-align: center;
   }
 
+  /* Main Resume Column Container */
   #Resume-container > div > div > div.stretched.twelve.wide.column {
     width: 100% !important;
   }
 
+  /* Main Resume Section */
   #Resume-container > div > div > div.stretched.twelve.wide.column > div {
     border-radius: 5px;
   }
 
+  /* Bulleted List */
   #Resume-container > div > div > div.stretched.twelve.wide.column > div ul {
     margin: 0;
     padding: 0px 0px 10px 30px;
   }
 
+  /* List Header */
   h3.sectionHeader {
     font-size: 16px;
   }
 
+  /* List sub-header */
   #Resume-container h4 {
     font-size: 14px;
   }
@@ -96,15 +106,19 @@ h4 {
 
 /* Smaller Smartphone Compatibility */
 @media only screen and (min-device-width: 321px) and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Entire Resume section*/
   #App-container div.ui.grid {
     flex-direction: column;
     align-items: center;
   }
 
+  /* Tab Navigation column */
   #App-container div.four.wide.column {
     width: 100% !important;
     padding-bottom: 0;
   }
+
+  /* Nav Tab Group */
   #Resume-container
     > div
     > div
@@ -114,6 +128,7 @@ h4 {
     flex-direction: row;
   }
 
+  /* Individual Nav Tabs */
   #Resume-container
     > div
     > div
@@ -128,23 +143,28 @@ h4 {
     text-align: center;
   }
 
+  /* Main Resume Column Container */
   #Resume-container > div > div > div.stretched.twelve.wide.column {
     width: 100% !important;
   }
 
+  /* Main Resume Section */
   #Resume-container > div > div > div.stretched.twelve.wide.column > div {
     border-radius: 5px;
   }
 
+  /* Bulleted List */
   #Resume-container > div > div > div.stretched.twelve.wide.column > div ul {
     margin: 0;
     padding: 0px 0px 10px 30px;
   }
 
+  /* List Header */
   h3.sectionHeader {
     font-size: 14px;
   }
 
+  /* List sub-header */
   #Resume-container h4 {
     font-size: 12px;
   }
@@ -152,15 +172,19 @@ h4 {
 
 /* Even Smaller Smartphone Compatibility */
 @media only screen and (min-device-width: 0px) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Entire Resume section*/
   #App-container div.ui.grid {
     flex-direction: column;
     align-items: center;
   }
 
+  /* Tab Navigation column */
   #App-container div.four.wide.column {
     width: 100% !important;
     padding-bottom: 0;
   }
+
+  /* Nav Tab Group */
   #Resume-container
     > div
     > div
@@ -170,6 +194,7 @@ h4 {
     flex-direction: row;
   }
 
+  /* Individual Nav Tabs */
   #Resume-container
     > div
     > div
@@ -184,24 +209,53 @@ h4 {
     text-align: center;
   }
 
+  /* Main Resume Column Container */
   #Resume-container > div > div > div.stretched.twelve.wide.column {
     width: 100% !important;
   }
 
+  /* Main Resume Section */
   #Resume-container > div > div > div.stretched.twelve.wide.column > div {
     border-radius: 5px;
   }
 
+  /* Bulleted List */
   #Resume-container > div > div > div.stretched.twelve.wide.column > div ul {
     margin: 0;
     padding: 0px 0px 10px 30px;
   }
 
+  /* List Header */
   h3.sectionHeader {
     font-size: 12px;
   }
 
+  /* List Sub-Header */
   #Resume-container h4 {
     font-size: 10px;
+  }
+}
+
+/* Standard Size Tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* List Header */
+  h3.sectionHeader {
+    font-size: 22px;
+  }
+
+  /* List Sub-Header */
+  #Resume-container h4 {
+    font-size: 18px;
+  }
+
+  /* Bulleted List */
+  #Resume-container > div > div > div.stretched.twelve.wide.column > div ul {
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+  }
+
+  /* Bulleted List Item */
+  #Resume-container > div > div > div.stretched.twelve.wide.column > div ul li {
+    margin: 10px;
   }
 }
