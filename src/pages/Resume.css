@@ -39,7 +39,7 @@ h4 {
 }
 
 /* Larger Smartphone Compatibility */
-@media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 376px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 3) {
   /* Entire Resume section*/
   #App-container div.ui.grid {
     flex-direction: column;
@@ -237,7 +237,17 @@ h4 {
 }
 
 /* Standard Size Tablets */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Individual Nav Tabs */
+  #Resume-container
+    > div
+    > div
+    > div.four.wide.column
+    > div.ui.fluid.vertical.menu
+    > a.item {
+    font-size: 18px;
+  }
+
   /* List Header */
   h3.sectionHeader {
     font-size: 22px;

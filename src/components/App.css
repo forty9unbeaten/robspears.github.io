@@ -21,8 +21,15 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+/* Even Smaller Smartphone Compatibility */
+@media only screen and (min-device-width: 0px) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 26px;
+  }
+}
+
 /* Standard Size Tablets */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) {
   h1 {
     font-size: 40px;
   }

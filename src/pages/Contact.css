@@ -53,7 +53,7 @@
 }
 
 /* Larger Smartphone Compatibility */
-@media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 376px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 3) {
   .socialIcon {
     color: maroon;
   }
@@ -112,7 +112,7 @@
 }
 
 /* Standard Size Tablets */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) {
   .socialIcon {
     color: maroon;
   }
